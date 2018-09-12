@@ -1,0 +1,22 @@
+{
+  "name": "intro-to-e2e-testing",
+  "version": "1.0.0",
+  "description": "Introduction to e2e testing with NightWatch",
+  "main": "nightwatch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nightwatchjs/nightwatch.git"
+  },
+  "author": "Djo Bukata",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nightwatchjs/nightwatch/issues"
+  },
+  "homepage": "https://github.com/nightwatchjs/nightwatch#readme",
+  "dependencies": {
+    "nightwatch": "^0.9.21"
+  }
+}

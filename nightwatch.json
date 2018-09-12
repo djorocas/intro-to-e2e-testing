@@ -1,0 +1,56 @@
+{
+  "src_folders": [
+    "tests"
+  ],
+  "output_folder": "reports/XMLReports",
+  "custom_commands_path": "",
+  "custom_assertions_path": "",
+  "page_objects_path": "pages",
+  "selenium": {
+    "start_process": true,
+    "server_path": "lib/drivers/selenium-server-standalone-3.14.0.jar",
+    "start_session": true,
+    "log_path": "log/",
+    "host": "127.0.0.1",
+    "port": 4444,
+    "cli_args": {
+      "webdriver.chrome.driver": "lib/drivers/chromedriver"
+    }
+  },
+  "test_settings": {
+    "default": {
+      "launch_url": "http://localhost",
+      "selenium_port": 4444,
+      "selenium_host": "localhost",
+      "silent": true,
+      "screenshots": {
+        "enabled": true,
+        "on_failure": true,
+        "on_error": true,
+        "path": "screenshots/chrome"
+      },
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "marionette": true
+      }
+    },
+    "chrome": {
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "chromeOptions": {
+          "args": [
+            "start-fullscreen",
+            "disable-web-security",
+            "--test-type",
+            "ignore-certificate-errors"
+          ]
+        }
+      }
+    },
+    "edge": {
+      "desiredCapabilities": {
+        "browserName": "MicrosoftEdge"
+      }
+    }
+  }
+}

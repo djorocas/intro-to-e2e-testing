@@ -13,7 +13,7 @@ Downloag the latest version of Google Chrome driver from <https://sites.google.c
  
 ```Note: Make sure to place the chromedriver and selenim-server-standalone-${version}.jar in /lib/drivers```
 
-Windows users:
+### Windows users:
 
 ```Note: Your chromedriver will have an .exe extension```
 

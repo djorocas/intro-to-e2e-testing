@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
-            tests="2">
+            failures="0"
+            tests="1">
 
   <testsuite name="demo"
-    errors="0" failures="1" hostname="" id="" package="demo" skipped="1"
-    tests="2" time="241.7" timestamp="Thu, 13 Sep 2018 11:06:35 GMT">
+    errors="0" failures="0" hostname="" id="" package="demo" skipped="0"
+    tests="1" time="13.75" timestamp="Thu, 13 Sep 2018 15:18:29 GMT">
   
-    <testcase name="Demo test Google" classname="demo" time="241.7" assertions="1">  <failure message="Timed out while waiting for element &lt;body&gt; to be present for 1000 milliseconds.">    at Object.Demo test Google (/Users/djobukata/Documents/MyProjects/intro-to-e2e-testing/tests/demo.js:6:14)
-    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+    <testcase name="Demo test Google" classname="demo" time="13.75" assertions="4">
+
+    
+
+    
+
+    
 
     
     </testcase>
@@ -16,13 +21,6 @@
 
   
 
-  
-    
-    <testcase
-      name="Demo test Yahoo" classname="demo">
-      <skipped />
-    </testcase>
-    
   
   </testsuite>
 </testsuites>
